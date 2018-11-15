@@ -1,0 +1,16 @@
+//
+//  Smartify-Prefix.pch
+//  Smartify
+//
+//  Created by Zubair.Nagori on 15/11/18.
+//  Copyright © 2018 Applligent. All rights reserved.
+//
+
+#ifndef Smartify_Prefix_pch
+#define Smartify_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <TuyaSmartKit/TuyaSmartKit.h>
+
+#endif /* Smartify_Prefix_pch */

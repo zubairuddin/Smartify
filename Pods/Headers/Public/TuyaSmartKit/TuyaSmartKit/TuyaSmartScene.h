@@ -1,0 +1,1 @@
+../../../../TuyaSmartKit/TuyaSmartKit.framework/Headers/TuyaSmartScene.h

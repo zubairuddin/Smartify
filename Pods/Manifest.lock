@@ -1,0 +1,42 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Reachability (3.2)
+  - TuyaSmartKit (1.15.11):
+    - CocoaAsyncSocket
+    - Mantle
+    - Reachability
+    - UICKeyChainStore
+  - UICKeyChainStore (2.1.1)
+
+DEPENDENCIES:
+  - TuyaSmartKit (from `https://github.com/TuyaInc/tuyasmart_ios_sdk.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - Mantle
+    - Reachability
+    - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  TuyaSmartKit:
+    :git: https://github.com/TuyaInc/tuyasmart_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  TuyaSmartKit:
+    :commit: 37a6a9900c45c393c1d3f3bdf13fd6e5fab199c7
+    :git: https://github.com/TuyaInc/tuyasmart_ios_sdk.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TuyaSmartKit: 38999dab365c2b5ae593d7c4f4b19906978e9409
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+
+PODFILE CHECKSUM: fe77429cbf09d1b344d7f6701d9620d7006cd109
+
+COCOAPODS: 1.5.2

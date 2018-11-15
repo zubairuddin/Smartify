@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2D997617D0C9DBA809A1A5 /* libPods-Smartify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8626E1B1524CBDA327F4AF6 /* libPods-Smartify.a */; };
+		F995D8FA219D7A74006B403D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F995D8F9219D7A74006B403D /* AppDelegate.m */; };
+		F995D8FD219D7A74006B403D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F995D8FC219D7A74006B403D /* ViewController.m */; };
+		F995D900219D7A74006B403D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F995D8FE219D7A74006B403D /* Main.storyboard */; };
+		F995D903219D7A74006B403D /* Smartify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F995D901219D7A74006B403D /* Smartify.xcdatamodeld */; };
+		F995D905219D7A75006B403D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F995D904219D7A75006B403D /* Assets.xcassets */; };
+		F995D908219D7A75006B403D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F995D906219D7A75006B403D /* LaunchScreen.storyboard */; };
+		F995D90B219D7A75006B403D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F995D90A219D7A75006B403D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2FF050DD678925D2F34CC93 /* Pods-Smartify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smartify/Pods-Smartify.release.xcconfig"; sourceTree = "<group>"; };
+		B8626E1B1524CBDA327F4AF6 /* libPods-Smartify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smartify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04AD61AE1393588457DAF65 /* Pods-Smartify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smartify/Pods-Smartify.debug.xcconfig"; sourceTree = "<group>"; };
+		F995D8F5219D7A74006B403D /* Smartify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F995D8F8219D7A74006B403D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F995D8F9219D7A74006B403D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F995D8FB219D7A74006B403D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F995D8FC219D7A74006B403D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F995D8FF219D7A74006B403D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F995D902219D7A74006B403D /* Smartify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smartify.xcdatamodel; sourceTree = "<group>"; };
+		F995D904219D7A75006B403D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F995D907219D7A75006B403D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F995D909219D7A75006B403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F995D90A219D7A75006B403D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F995D912219D7C7A006B403D /* Smartify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smartify-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F995D8F2219D7A74006B403D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2D997617D0C9DBA809A1A5 /* libPods-Smartify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55035ADC9CF2B09029E9AEB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8626E1B1524CBDA327F4AF6 /* libPods-Smartify.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F995D8EC219D7A74006B403D = {
+			isa = PBXGroup;
+			children = (
+				F995D8F7219D7A74006B403D /* Smartify */,
+				F995D8F6219D7A74006B403D /* Products */,
+				FA27EEE65D03674AED17EA0C /* Pods */,
+				55035ADC9CF2B09029E9AEB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F995D8F6219D7A74006B403D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F995D8F5219D7A74006B403D /* Smartify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F995D8F7219D7A74006B403D /* Smartify */ = {
+			isa = PBXGroup;
+			children = (
+				F995D8F8219D7A74006B403D /* AppDelegate.h */,
+				F995D8F9219D7A74006B403D /* AppDelegate.m */,
+				F995D8FB219D7A74006B403D /* ViewController.h */,
+				F995D8FC219D7A74006B403D /* ViewController.m */,
+				F995D8FE219D7A74006B403D /* Main.storyboard */,
+				F995D904219D7A75006B403D /* Assets.xcassets */,
+				F995D906219D7A75006B403D /* LaunchScreen.storyboard */,
+				F995D909219D7A75006B403D /* Info.plist */,
+				F995D90A219D7A75006B403D /* main.m */,
+				F995D912219D7C7A006B403D /* Smartify-Prefix.pch */,
+				F995D901219D7A74006B403D /* Smartify.xcdatamodeld */,
+			);
+			path = Smartify;
+			sourceTree = "<group>";
+		};
+		FA27EEE65D03674AED17EA0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C04AD61AE1393588457DAF65 /* Pods-Smartify.debug.xcconfig */,
+				B2FF050DD678925D2F34CC93 /* Pods-Smartify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F995D8F4219D7A74006B403D /* Smartify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F995D90E219D7A75006B403D /* Build configuration list for PBXNativeTarget "Smartify" */;
+			buildPhases = (
+				76D54F9496940B7D31967347 /* [CP] Check Pods Manifest.lock */,
+				F995D8F1219D7A74006B403D /* Sources */,
+				F995D8F2219D7A74006B403D /* Frameworks */,
+				F995D8F3219D7A74006B403D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartify;
+			productName = Smartify;
+			productReference = F995D8F5219D7A74006B403D /* Smartify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F995D8ED219D7A74006B403D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Applligent;
+				TargetAttributes = {
+					F995D8F4219D7A74006B403D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = F995D8F0219D7A74006B403D /* Build configuration list for PBXProject "Smartify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F995D8EC219D7A74006B403D;
+			productRefGroup = F995D8F6219D7A74006B403D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F995D8F4219D7A74006B403D /* Smartify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F995D8F3219D7A74006B403D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F995D908219D7A75006B403D /* LaunchScreen.storyboard in Resources */,
+				F995D905219D7A75006B403D /* Assets.xcassets in Resources */,
+				F995D900219D7A74006B403D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76D54F9496940B7D31967347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smartify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F995D8F1219D7A74006B403D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F995D903219D7A74006B403D /* Smartify.xcdatamodeld in Sources */,
+				F995D8FD219D7A74006B403D /* ViewController.m in Sources */,
+				F995D90B219D7A75006B403D /* main.m in Sources */,
+				F995D8FA219D7A74006B403D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F995D8FE219D7A74006B403D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F995D8FF219D7A74006B403D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F995D906219D7A75006B403D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F995D907219D7A75006B403D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F995D90C219D7A75006B403D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F995D90D219D7A75006B403D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F995D90F219D7A75006B403D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04AD61AE1393588457DAF65 /* Pods-Smartify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/ZubairNagori/Desktop/Smartify/Smartify/Smartify-Prefix.pch";
+				INFOPLIST_FILE = Smartify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Applligent.Smartify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F995D910219D7A75006B403D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FF050DD678925D2F34CC93 /* Pods-Smartify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/ZubairNagori/Desktop/Smartify/Smartify/Smartify-Prefix.pch";
+				INFOPLIST_FILE = Smartify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Applligent.Smartify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F995D8F0219D7A74006B403D /* Build configuration list for PBXProject "Smartify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F995D90C219D7A75006B403D /* Debug */,
+				F995D90D219D7A75006B403D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F995D90E219D7A75006B403D /* Build configuration list for PBXNativeTarget "Smartify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F995D90F219D7A75006B403D /* Debug */,
+				F995D910219D7A75006B403D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F995D901219D7A74006B403D /* Smartify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F995D902219D7A74006B403D /* Smartify.xcdatamodel */,
+			);
+			currentVersion = F995D902219D7A74006B403D /* Smartify.xcdatamodel */;
+			path = Smartify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F995D8ED219D7A74006B403D /* Project object */;
+}
