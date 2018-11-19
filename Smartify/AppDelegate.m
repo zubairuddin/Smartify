@@ -19,7 +19,6 @@
     
     [[TuyaSmartSDK sharedInstance] startWithAppKey:@"muscjne47s3q9q8trchg" secretKey:@"j5gxpj4f3vva3sf8vrdhtgjxvtehkfp4"];
     
-    
     return YES;
 }
 
